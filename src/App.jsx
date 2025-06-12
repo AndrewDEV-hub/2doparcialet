@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './components/formulario.jsx'
+import Formulario from './components/form.jsx'
 import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <formulario />
-    </>
+      <Formulario />
+      </> 
   )
 }
 
